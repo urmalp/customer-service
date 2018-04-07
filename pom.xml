@@ -24,6 +24,12 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<scm>
+	<connection>scm:git:git://github.com/urmalp/customer-service.git</connection>
+	<developerConnection>scm:git:git@github.com:urmalp/customer-service.git</developerConnection>
+	<url>https://github.com/urmalp/customer-service</url>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

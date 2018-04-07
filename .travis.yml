@@ -1,1 +1,10 @@
 language: java
+deploy:
+  -
+    on:
+      branch: release
+    provider: urmalp
+    skip_cleanup: true
+    file: target/customer-service-*.jar
+    user: urmalp
+    key: d6c4182f9695e25ef5469bca06bc9df534e1cfbd
